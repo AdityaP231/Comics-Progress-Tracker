@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.7)url(/images/dc_comics_universe.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/*! Navbar */
+
+nav {
+    background-color: #dc1414;
+}
+
+nav .heading {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+/*! Main */
+
+.main-timer {
+    gap: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 20px;
+    background-color: #000000;
+    border: 10px solid rgb(255, 166, 0);
+}
+
+.main-timer span.num {
+    color: #ff6804;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.main-timer .text {
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+/*****************************************! dc Comics **************************************/
+
+.dc-events h2 {
+    color: rgb(3, 250, 250);
+    text-align: center;
+}
+
+.dc-events h2 span {
+    background-color: #bd0d33;
+    padding: 15px;
+
+    border-radius: 20px;
+}
+
+/*! Container */
+
+.dc-events-container .container {
+    background: transparent;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.dc-events-container .container .heading {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #3b3a3a;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 50px;
+}
+
+.dc-events-container .container .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.dc-events-container .container .box-container .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: transparent;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.dc-events-container .container .box-container .box img {
+    height: 250px;
+}
+
+.dc-events-container .container .box-container .box h3 {
+    color: #f89603;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.dc-events-container .container .box-container .box p {
+    color: #01fa22;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.dc-events-container .container .box-container .box p span {
+    color: #fff;
+}
+
+.dc-events-container .container .box-container .box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+/*! Characters */
+
+.dc-character-container .characters-container {
+    background: transparent;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.dc-character-container .characters-container .characters-box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    gap: 25px;
+}
+
+.dc-character-container .characters-container .characters-box-container .characters-box {
+    border-radius: 5px;
+    background: transparent;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.dc-character-container .characters-container .characters-box-container .characters-box img{
+    height: 350px;
+    width: 90%;
+}
+
+.dc-character-container .characters-container .characters-box-container .characters-box h2 {
+    color: #f89603;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.dc-character-container .characters-container .characters-box-container .characters-box p {
+    color: #fa6501;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.dc-character-container .characters-container .characters-box-container .characters-box p span {
+    color: #00e1ff;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+@media (max-width:768px) {
+    .container {
+        padding: 20px;
+    }
+}

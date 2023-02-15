@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.938);
+}
+
+/*! Navbar */
+
+nav {
+    background-color: #dc1414;
+}
+
+nav .heading {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+/*! Main */
+
+.main-timer {
+    gap: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 20px;
+    background-color: #000000;
+    border: 10px solid rgb(255, 166, 0);
+}
+
+.main-timer span.num {
+    color: #ff6804;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.main-timer .text {
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+/*! Marvel */
+
+.marvel {
+    background-color: #eb5722;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+    margin-left: 20%;
+    border-radius: 20px;
+    border: 5px solid aqua;
+    transition: box-shadow .3s;
+}
+
+.marvel:hover {
+    box-shadow: 0px 0px 10px rgb(124, 124, 124);
+    transition: all linear .1s;
+}
+
+.marvel img{
+    width: 120px;
+}
+
+.marvel a{
+    text-decoration: none;
+}
+
+.marvel h2{
+    color: rgb(255, 255, 255);
+    background-color: #4C0027;
+    border-radius: 20px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.marvel h2:hover{
+    color: rgb(148, 142, 142);
+    transition: .3s linear;
+}
+
+/*! Dc */
+.dc {
+    background-color: #eb5722;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+    margin-left: 62%;
+    border-radius: 20px;
+    border: 5px solid aqua;
+    transition: box-shadow .3s;
+}
+
+.dc:hover {
+    box-shadow: 0px 0px 10px rgb(124, 124, 124);
+    transition: all linear .1s;
+}
+
+.dc img{
+    width: 120px;
+}
+
+.dc a{
+    text-decoration: none;
+}
+
+.dc h2{
+    color: rgb(255, 255, 255);
+    background-color: #4C0027;
+    border-radius: 20px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.dc h2:hover{
+    color: rgb(148, 142, 142);
+    transition: .3s linear;
+}
+
+
+/*! Other Comics */
+
+.other-comics {
+    background-color: #eb5722;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+    margin-left: 20%;
+    border-radius: 20px;
+    border: 5px solid aqua;
+}
+
+.other-comics img{
+    width: 120px;
+}
+
+.other-comics a{
+    text-decoration: none;
+}
+
+.other-comics h2{
+    color: rgb(255, 255, 255);
+    background-color: #4C0027;
+    border-radius: 20px;
+    width: 120px;
+    margin: 0 auto;
+    transition: box-shadow .3s;
+}
+
+.other-comics:hover {
+    box-shadow: 0px 0px 10px rgb(124, 124, 124);
+    transition: all linear .1s;
+}
+
+.other-comics h2:hover{
+    color: rgb(148, 142, 142);
+    transition: .3s linear;
+}
+
